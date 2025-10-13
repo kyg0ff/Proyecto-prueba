@@ -1,10 +1,10 @@
 {
-  "name": "proyecto-interfaces-estaticas",
+  "name": "proyecto-segura-estatico",
   "version": "1.0.0",
-  "description": "Servidor simple para interfaces HTML/CSS.",
+  "description": "Servidor simple para interfaces HTML/CSS estáticas.",
   "main": "index.html",
   "scripts": {
-    "start": "live-server ./interfaces --entry-file=paginaprincipal.html --wait=500 --port=3000",
+    "start": "live-server --port=3000 --entry-file=paginaprincipal.html ./backend/interfaces",
     "dev": "npm start"
   },
   "keywords": [
