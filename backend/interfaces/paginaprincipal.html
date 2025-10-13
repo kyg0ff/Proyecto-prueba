@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciudad Segura – Denuncias Urbanas</title>
+    <title>Ciudad Segura</title>
     
     <link rel="stylesheet" href="styles.css"> 
 
@@ -27,11 +27,9 @@
             <div class="nav-actions">
                 <nav class="main-nav">
                     <a href="#">Inicio</a>
-                    <a href="#">Denuncias</a>
-                    <a href="#">Estadísticas</a>
-                    <a href="#">Concientización / Noticias</a>
-                    <a href="#">Contacto / Soporte</a>
+                    <a href="#">Soporte</a>
                 </nav>
+
                 <div class="auth-buttons">
                     <button class="btn btn-primario">Registrarse</button>
                     <button class="btn btn-secundario">Iniciar sesión</button>
@@ -43,6 +41,7 @@
                         </div>
                     </button>
                 </div>
+                
             </div>
         </header>
 
@@ -55,9 +54,21 @@
                     </h1>
                     <div class="hero-actions">
                         <button class="btn btn-principal-grande">Reportar denuncia ahora</button>
-                        <button class="btn btn-secundario-grande">Ver denuncias cercanas</button>
+                        
                     </div>
                 </section>
+                
+                <h2 class="section-title">Búsqueda / Filtros</h2>
+                <div class="search-block">
+                    <label class="search-input-group">
+                        <div class="search-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                            </svg>
+                        </div>
+                        <input placeholder="Buscar denuncias" class="search-input" value=""/>
+                    </label>
+                </div>
 
                 <h2 class="section-title">Denuncias Recientes</h2>
                 <div class="card-list">
@@ -68,24 +79,8 @@
                         </div>
                         <div class="card-image" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAArsyvjy-GJQsnpR7lBgdix_Q5-LTyO0do7_uBDbHCOwFrqt2WXWpIHgrEHa11mTUXN23XhbKKMTFuoBQyk7nDihDMatFwWZu3pO6ynvbHqlDntiPlRKttkH_GrvxXWvhJis2gChEtFlL-DcNF_Gk8KCcSzSl79Wjzr0fEwEpRcmlbUx4i6NCbkYiKjC1W6ErV5soQ8ORb0Jd23OGlenQiNKEd_ZZrOalrm6xLS4LG8BBgDuITOm40qX5wnGFSowi3bLWDiySAeQ");'></div>
                     </div>
-                    <div class="news-card">
-                        <div class="card-text">
-                            <p class="card-title">Mejoras en el Transporte Público</p>
-                            <p class="card-description">Se han implementado nuevas rutas de autobuses y horarios extendidos para mejorar la conectividad en toda la ciudad. Los pasajeros ahora pueden disfrutar de viajes más frecuentes y eficientes.</p>
-                        </div>
-                        <div class="card-image" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDXwq8zg6mxBKpgHGdtIgveLmJ7NlshhZuZLq31BsFxRpjThJVx6u3lI1_h4kn__cm3VArJx45DH4lAUBeZQU7LGoWkYAfCJN-WRFZTK9b5HZEbl8KlZ7Swx0xkPaU3NPtYp__lyo48RQzKosR78yK-VKNT0JJPLgAbts5WLJK85sk4UpX8oOxcIdELJxNH-sB7WF-GrSrix9FBdG0CXHFWbu2Ww-2xsUQBpr3NLrYvbEliW8Q42baBw3nOpe0GC0qN5rvvZxYmMg");'></div>
-                    </div>
-                    <div class="news-card">
-                        <div class="card-text">
-                            <p class="card-title">Reparación de Calles en el Barrio del Sol</p>
-                            <p class="card-description">El gobierno local ha lanzado un programa de reciclaje mejorado para abordar los crecientes problemas de residuos. Los residentes pueden participar registrandose en línea o visitando los centros comunitarios designados.</p>
-                        </div>
-                        <div class="card-image" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKo2bjxdQJzxmc9V-VVOnFs-51kcF3tGnsdtqe8ziewbSDZB1sbpxXEPyTp_IxGfS3xUPngMC2T5_0SGsnI7hokmY2gfCe3A4iC0AofzUj16-YsNTlPolwqUaQ6uV3a2BRw2xuyIy5YK6zeTIecSIqVA0_-aXfBVv1st35rQ8nMz2mV_Kse9w8w4t6uC101DPr2I2kIgZuWON-0RONhuwOQbxpuKL8TmeOcUXxy8FG2yE7mlvM44Nwt3J__wmMh0uIy0zG1Afl6A");'></div>
-                    </div>
                 </div>
-                <div class="section-action">
-                    <button class="btn btn-secundario">Ver todas las denuncias</button>
-                </div>
+
                 
                 <h2 class="section-title">Estadísticas Públicas</h2>
                 <div class="stats-grid">
@@ -103,126 +98,13 @@
                     </div>
                 </div>
                 
-                <div class="stat-bar-block">
-                    <p class="bar-chart-title">Denuncias por Categoría</p>
-                    <div class="bar-chart-grid">
-                        <div class="bar-container">
-                            <div class="bar" style="height: 20%;"></div>
-                            <p class="bar-label">Infraestructura</p>
-                        </div>
-                        <div class="bar-container">
-                            <div class="bar" style="height: 10%;"></div>
-                            <p class="bar-label">Seguridad</p>
-                        </div>
-                        <div class="bar-container">
-                            <div class="bar" style="height: 90%;"></div>
-                            <p class="bar-label">Medio Ambiente</p>
-                        </div>
-                        <div class="bar-container">
-                            <div class="bar" style="height: 40%;"></div>
-                            <p class="bar-label">Servicios</p>
-                        </div>
-                        <div class="bar-container">
-                            <div class="bar" style="height: 30%;"></div>
-                            <p class="bar-label">Otros</p>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 class="section-title">Concientización</h2>
-                <div class="grid-2col">
-                    <div class="action-card">
-                        <div class="icon">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                                                  <path
-                                                    d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
-                                                ></path>
-                                              </svg>
-                        </div>
-                        <h2 class="card-title-small">Participa en la limpieza de tu barrio</h2>
-                    </div>
-                    <div class="action-card">
-                        <div class="icon">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                                                  <path
-                                                    d="M198.1,62.6a76,76,0,0,0-140.2,0A72.27,72.27,0,0,0,16,127.8C15.89,166.62,47.36,199,86.14,200A71.68,71.68,0,0,0,120,192.49V232a8,8,0,0,0,16,0V192.49A71.45,71.45,0,0,0,168,200l1.86,0c38.78-1,70.25-33.36,70.14-72.18A72.26,72.26,0,0,0,198.1,62.6ZM169.45,184a55.61,55.61,0,0,1-32.52-9.4q-.47-.3-.93-.57V132.94l43.58-21.78a8,8,0,1,0-7.16-14.32L136,115.06V88a8,8,0,0,0-16,0v51.06L83.58,120.84a8,8,0,1,0-7.16,14.32L120,156.94V174q-.47.27-.93.57A55.7,55.7,0,0,1,86.55,184a56,56,0,0,1-22-106.86,15.9,15.9,0,0,0,8.05-8.33,60,60,0,0,1,110.7,0,15.9,15.9,0,0,0,8.05,8.33,56,56,0,0,1-22,106.86Z"
-                                                ></path>
-                                              </svg>
-                        </div>
-                        <h2 class="card-title-small">Planta un árbol y mejora el aire</h2>
-                    </div>
-                </div>
-
-                <h2 class="section-title">Búsqueda / Filtros</h2>
-                <div class="search-block">
-                    <label class="search-input-group">
-                        <div class="search-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
-                            </svg>
-                        </div>
-                        <input placeholder="Buscar denuncias" class="search-input" value=""/>
-                    </label>
-                    <div class="filter-tags">
-                        <div class="tag">Infraestructura</div>
-                        <div class="tag">Seguridad</div>
-                        <div class="tag">Medio Ambiente</div>
-                        <div class="tag">Servicios</div>
-                        <div class="tag">Otros</div>
-                    </div>
-                </div>
-                <div class="section-action">
-                    <button class="btn btn-secundario">Ver en mapa interactivo</button>
-                </div>
-
-                <h2 class="section-title">Noticias y Comunicados</h2>
-                <div class="news-main-card" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPDP-tlwDDdDRSMBYQvJBmn2KtWj8Ml4MlaBkyTA9NOyO-FoR6NZHYy6Pd-f2LlH99KOVNXxJ6YjrN8oi5ui73euGSIBUO4fIYwJcm0w8g169NBI2g7pu93dSrdwTVtQRfKpRd0sMM77W1Px9dbIxJXpCGmUqbUIeH9lLAL8qlFHsdSFCCzQNRZ9YUZPWGeEZ-L_qKLewxxdSsagFz_RFJUIC4OBxEpcksArPYbwkA5R2p13MiDwJDWk1whgYr2bFQgrqNNIw8RQ");'>
-                    <div class="news-content">
-                        <p class="news-title">Alerta: Mantenimiento de tuberías en la zona centro</p>
-                        <p class="news-description">Se informa a los residentes que habrá corte de agua el próximo martes debido a trabajos de mantenimiento.</p>
-                    </div>
-                </div>
-
-                <section class="cta-block">
-                    <h1 class="cta-title">Tu voz cuenta. Reporta, participa y mejora tu ciudad</h1>
-                    <button class="btn btn-principal-grande">Crear denuncia</button>
-                </section>
-
+                
             </div>
         </main>
 
         <footer class="main-footer">
             <div class="footer-content">
-                <div class="footer-links">
-                    <a href="#">Sobre el sistema</a>
-                    <a href="#">Enlaces a ODS</a>
-                    <a href="#">Datos de contacto</a>
-                    <a href="#">Políticas de privacidad</a>
-                </div>
-                <div class="social-links">
-                    <a href="#">
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                                <path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path>
-                            </svg>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                                <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
-                            </svg>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                                <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-                <p class="footer-copy">© 2024 Ciudad Segura. Todos los derechos reservados.</p>
+                <p class="footer-copy">© 2025 Ciudad Segura. Todos los derechos reservados.</p>
             </div>
         </footer>
     </div>
