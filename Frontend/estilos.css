@@ -476,3 +476,156 @@ a {
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* ====================================================== */
+/* ===== ESTILOS PARA LA PÁGINA DE INICIO DE SESION ===== */
+/* ====================================================== */
+
+body {
+    background-color: #f5f6fa;
+}
+.contenedor-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-weight: bold;
+}
+.login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.login-card h2 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    color: #000;
+}
+
+.campo-login {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo-login label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.campo-login input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+    
+}
+
+.botones-login {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.boton-autoridad {
+    margin-top: 5px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    
+    font-weight: bold;
+}
+
+.boton-autoridad:hover {
+    background-color: #0056b3;
+}
+
+.volver i {
+    font-size: 1.2em;
+}
+
+/* ====================================================== */
+/* ===== ESTILOS PARA LA PÁGINA DE REGISTRO ============= */
+/* ====================================================== */
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register-form label {
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #111827;
+    margin-bottom: 3px;
+}
+
+.register-form input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f1f5f9;
+    font-size: 0.95rem;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.register-form input:focus {
+    outline: none;
+    background-color: #e5e7eb;
+    box-shadow: 0 0 0 2px #009688; /* color turquesa del encabezado */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.btn-primary {
+    flex: 1;
+    background-color: #2563eb; /* azul */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1e40af;
+}
+
+.btn-secondary {
+    flex: 1;
+    background-color: #e5e7eb;
+    color: #111827;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #d1d5db;
+}
+
+
